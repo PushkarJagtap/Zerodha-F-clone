@@ -11,10 +11,16 @@ body{
 display: flex; 
 align-items: center;
 justify-content: space-between;   
-background-color:rgb(254, 254, 254);
-height: 12vh;
-padding: 0 150px;
-border-bottom:4px #6666662b;
+background-color: white;
+height: 7vh;
+padding: 0px 150px; 
+margin-top:5px;
+border-bottom: 1px solid #42424234;
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+background-color: white;
 }
 .header ul{
     display: flex;
@@ -33,12 +39,39 @@ border-bottom:4px #6666662b;
 .img-text{
     text-align: center;
     padding-top: 50px;
-    background-color: #666;
-    padding-bottom: 20px;
-   
+    background-color:white;
+    padding-bottom: 50px;
 }
 .img1 {
-    width: 850px;
-    padding-bottom: 60px;
+     width: 850px; 
+     padding-bottom: 30px; 
 }
+.text{
+    font-size: 1.50rem;
+    line-height: 1.0;
+    text-align: center;
+    background-color: white;
+padding-bottom: 70px;
+color:#424242;
+
+}
+.button{
+     background-color: white; 
+    height: 60px;
+      text-align: center;  
+} 
+.cta-btn{
+    font-size: 22px;
+    background-color:#387ed1;
+    text-align: center;
+    padding: 12px 30px; 
+    text-decoration: none;
+    color: white; 
+  border-radius: 3px;
+}
+.cta-btn:hover{
+    background-color: #424242;
+}
+
+
 
